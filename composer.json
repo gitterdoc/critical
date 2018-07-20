@@ -3,6 +3,8 @@
     "description": "Laravel provider that will extract critical CSS.",
     "type": "library",
     "license": "MIT",
+	"homepage": "https://gitterdoc.com/",
+	"keywords": ["critical","gitterdoc","Above the fold","stylesheet","pagespeed"],
     "authors": [
         {
             "name": "Adrian Preuss",
@@ -10,6 +12,7 @@
         }
     ],
     "minimum-stability": "dev",
+	"prefer-stable": true,
 	"require-all": true,
     "require": {
 		"masterminds/html5": "2.*",
