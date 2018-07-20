@@ -59,7 +59,7 @@ You can change the settings on the `config/critical.php` file.
 | :memo:             | **onlyprint** | `boolean` | `true`      | `CRITICAL_ONLY_PRINT`    | Describes the handling  - `true` - Only stylesheets will be printed, no more handling  - `false` - Each site request will be parsed to find specific styles |
 | :zap:              | **caching**   | `Array`   |             |                          |                                                                                                                                                             |
 |                    | **enabled**   | `boolean` | `true`      | `CRITICAL_CACHE_ENABLED` | Enable or disable the caching                                                                                                                               |
-|                    | **time***     | `integer` | `3600`      | `CRITICAL_CACHE_TIME`    | Set the maximal cache lifetime of the cache in seconds (3600 = 1 hr)                                                                                        |
+|                    | **time**     | `integer` | `3600`      | `CRITICAL_CACHE_TIME`    | Set the maximal cache lifetime of the cache in seconds (3600 = 1 hr)                                                                                        |
 | :scroll:           |  **noscript** | `boolean` | `true`      | `CRITICAL_NOSCRIPT`      | Adding original stylesheet as `<noscript>` for browsers, that don't have JavaScript enabled                                                                 |                                                           |
 ----
 <table width="100%">
