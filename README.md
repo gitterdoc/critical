@@ -62,7 +62,7 @@ You can change the settings on the `config/critical.php` file.
 |                    | **time**     | `integer` | `3600`      | `CRITICAL_CACHE_TIME`    | Set the maximal cache lifetime of the cache in seconds (3600 = 1 hr)                                                                                        |
 | :scroll:           |  **noscript** | `boolean` | `true`      | `CRITICAL_NOSCRIPT`      | Adding original stylesheet as `<noscript>` for browsers, that don't have JavaScript enabled                                                                 |                                                           |
 ## :fire: Support us!
-I'm a excellent and professional web- & software developer but i don't work anymore in these branche. I spend spend some free time to create awesome content. Support me by **liking my repositorys** :heart_eyes: or spend me a coffee :coffee:!
+I'm a excellent and professional web- & software developer but i don't work anymore in these branche. I spend some free time to create awesome content. Support me by **liking my repositorys** :heart_eyes: or spend me a coffee :coffee:!
 
 ----
 <table width="100%">
