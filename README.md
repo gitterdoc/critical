@@ -53,15 +53,14 @@ This method will handle your stylesheets.
 ## :wrench: Settings
 You can change the settings on the `config/critical.php` file.
 
-| **Name**         | **Type**  | **Default** | **env**                  | **Description**                                                                                                                                             |
-|------------------|-----------|-------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **enabled**      | `boolean` | `true`      | `CRITICAL_ENABLED`       | Enable or disable the Critical module                                                                                                                       |
-| **onlyprint**    | `boolean` | `true`      | `CRITICAL_ONLY_PRINT`    | Describes the handling  - `true` - Only stylesheets will be printed, no more handling  - `false` - Each site request will be parsed to find specific styles |
-| **caching**      | `Array`   |             |                          |                                                                                                                                                             |
-|      **enabled** | `boolean` | `true`      | `CRITICAL_CACHE_ENABLED` | Enable or disable the caching                                                                                                                               |
-|      **time***   | `Integer` | `3600`      | `CRITICAL_CACHE_TIME`    | Set the maximal cache lifetime of the cache in seconds (3600 = 1 hr)                                                                                        |
-| **noscript**     | `boolean` | `true`      | `CRITICAL_NOSCRIPT`      | Adding original stylesheet as `<noscript>` for browsers, that don't have JavaScript enabled                                                                 |
-
+| **Name**                       | **Type**  | **Default** | **env**                  | **Description**                                                                                                                                             |
+|--------------------------------|-----------|-------------|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| :white_check_mark: **enabled** | `boolean` | `true`      | `CRITICAL_ENABLED`       | Enable or disable the Critical module                                                                                                                       |
+| :memo: **onlyprint**           | `boolean` | `true`      | `CRITICAL_ONLY_PRINT`    | Describes the handling  - `true` - Only stylesheets will be printed, no more handling  - `false` - Each site request will be parsed to find specific styles |
+| **caching**                    | `Array`   |             |                          |                                                                                                                                                             |
+| :heavy_minus_sign: **enabled** | `boolean` | `true`      | `CRITICAL_CACHE_ENABLED` | Enable or disable the caching                                                                                                                               |
+| :heavy_minus_sign: **time**   | `integer` | `3600`      | `CRITICAL_CACHE_TIME`    | Set the maximal cache lifetime of the cache in seconds (3600 = 1 hr)                                                                                        |
+| :scroll: **noscript**          | `boolean` | `true`      | `CRITICAL_NOSCRIPT`      | Adding original stylesheet as `<noscript>` for browsers, that don't have JavaScript enabled                                                                 |
 ----
 <table width="100%">
   <tr>
