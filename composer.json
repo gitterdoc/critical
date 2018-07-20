@@ -1,0 +1,38 @@
+{
+    "name": "gitterdoc/critical",
+    "description": "Laravel provider that will extract critical CSS.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Preuss",
+            "email": "support@gitterdoc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require-all": true,
+    "require": {
+		"masterminds/html5": "2.*",
+		"sabberworm/php-css-parser": "*"
+	},
+	"autoload": {
+		"classmap": [
+            "src/Commands",
+            "src/Parser"
+		],
+		"files": [
+			"src/Helpers/Blade.php"
+		],
+		"psr-4": {
+			"gitterdoc\\critical\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"gitterdoc\\critical\\Install"
+			],
+			"aliases": {}
+		}
+	}
+}
