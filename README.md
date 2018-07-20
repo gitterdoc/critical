@@ -1,9 +1,9 @@
-## How it work's?
+## :boom: How it work's?
 This package will resolve needed styles and pack it to the header. The rest of additional styles will be appended to the body and will be loaded after the page is ready. Warranty for google Pagespeed up to 100% and compatible with `Bootstrap`!
 
 ![google PageSpeed: Desktop](https://gitterdoc.com/GitHub/pagespeed_desktop.png) ![google PageSpeed: Mobile](https://gitterdoc.com/GitHub/pagespeed_mobile.png)
 
-## Installation
+## :books: Installation
 Go to your root directory of your laravel project and install the package with composer:
 
 ```shell
@@ -16,7 +16,7 @@ And add the configuration's file to your laravel instance:
 $ php artisan vendor:publish --provider="gitterdoc\Critical\Install"
 ```
 
-## Usage
+## :bulb: Usage
 Go into your `Blade` template and replace your `Stylesheets` and add the same to the end of the body by expecting the second parameter!
 
 ```html
@@ -40,7 +40,7 @@ Go into your `Blade` template and replace your `Stylesheets` and add the same to
 </html>
 ```
 
-## API
+## :hammer: API
 
 ### `{{ critical($file, $type) }}`
 This method will handle your stylesheets.
@@ -50,7 +50,7 @@ This method will handle your stylesheets.
 | $file         | `String`  | **required** | The stylesheet, that will be handled                                                |
 | $type         | `boolean` | `true`       | It's an include for your header or your footer? (header = `true`, footer = `false`) |
 
-## Settings
+## :wrench: Settings
 You can change the settings on the `config/critical.php` file.
 
 | **Name**         | **Type**  | **Default** | **env**                  | **Description**                                                                                                                                             |
@@ -62,3 +62,14 @@ You can change the settings on the `config/critical.php` file.
 |      **time***   | `Integer` | `3600`      | `CRITICAL_CACHE_TIME`    | Set the maximal cache lifetime of the cache in seconds (3600 = 1 hr)                                                                                        |
 | **noscript**     | `boolean` | `true`      | `CRITICAL_NOSCRIPT`      | Adding original stylesheet as `<noscript>` for browsers, that don't have JavaScript enabled                                                                 |
 
+----
+<table width="100%">
+  <tr>
+    <th>
+      <a href="https://packagist.org/packages/gitterdoc/critical" target="_blank">https://packagist.org/packages/gitterdoc/critical</a>
+    </th>
+    <th style="text-align: right">
+      <a href="https://gitterdoc.com" target="_blank">https://gitterdoc.com</a>
+    </th>
+  </tr>
+</div>
